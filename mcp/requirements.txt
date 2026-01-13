@@ -1,0 +1,6 @@
+fastmcp
+alphagenome
+matplotlib
+numpy
+pandas
+plotnine

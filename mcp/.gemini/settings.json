@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "alphagenome_mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "--with-requirements",
+        "/Users/jiachengmiao/Downloads/src/requirements.txt",
+        "fastmcp",
+        "run",
+        "/Users/jiachengmiao/Downloads/src/alphagenome_mcp.py"
+      ]
+    }
+  }
+}
