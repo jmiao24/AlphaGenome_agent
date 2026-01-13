@@ -81,11 +81,6 @@ The agent provides the following capabilities through natural language:
 ### Batch Variant Scoring
 - `alphagenome_score_batch_variants`: Score multiple genetic variants across genomic modalities
 
-### Analysis Workflow
-- `alphagenome_visualize_variant_positions`: Visualize genomic positions of variants near genes
-- `alphagenome_predict_variant_effects`: Predict functional impact on gene expression, accessibility, and histone marks
-- `alphagenome_compare_variant_scores`: Compare predicted expression changes between variant groups
-
 ### Single Variant Scoring
 - `alphagenome_score_variant`: Score a single genetic variant across multiple genomic features
 - `alphagenome_visualize_variant_effects`: Visualize predicted variant effects across modalities
