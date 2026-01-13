@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "alphagenome_mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "--with-requirements",
+        "/Users/jiachengmiao/Library/CloudStorage/OneDrive-Stanford/Github/AlphaGenome_demo/mcp/requirements.txt",
+        "fastmcp",
+        "run",
+        "/Users/jiachengmiao/Library/CloudStorage/OneDrive-Stanford/Github/AlphaGenome_demo/mcp/alphagenome_mcp.py"
+      ]
+    }
+  },
+  "general": {
+    "previewFeatures": true,
+    "vimMode": false
+  }
+}

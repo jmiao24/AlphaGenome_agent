@@ -43,6 +43,12 @@ AlphaGenome requires an API key to access the model. Obtain your API key at:
 
 https://deepmind.google.com/science/alphagenome/
 
+After obtaining the key, create a `.env` file in the repository folder:
+
+```bash
+echo "ALPHAGENOME_API_KEY=your_api_key_here" > .env
+```
+
 ### 4. Install FastMCP
 
 ```bash
