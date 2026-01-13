@@ -1,6 +1,6 @@
-# AlphaGenome Demo
+# [Paper2Agent](https://github.com/jmiao24/Paper2Agent): AlphaGenome Demo
 
-This repository contains resources for AlphaGenome, a unified DNA sequence-to-function model developed by Google DeepMind that predicts functional effects of genetic variants across diverse genomic modalities.
+A demonstration of turning the [AlphaGenome paper](https://deepmind.google.com/science/alphagenome/) into an interactive AI agent. This project transforms Google DeepMind's unified DNA sequence-to-function model into a conversational agent that can analyze genetic variants, predict functional effects, and generate visualizations through natural language.
 
 ## Folder Structure
 
@@ -22,21 +22,28 @@ AlphaGenome_demo/
 
 ## Quick Start
 
-### 1. Install Gemini CLI
+### 1. Clone the Repository
 
-First, install the [Google Gemini CLI](https://github.com/google-gemini/gemini-cli):
+```bash
+git clone https://github.com/jmiao24/AlphaGenome_demo.git
+cd AlphaGenome_demo
+```
+
+### 2. Install Gemini CLI
+
+Install the [Google Gemini CLI](https://github.com/google-gemini/gemini-cli):
 
 ```bash
 brew install gemini-cli
 ```
 
-### 2. Obtain API Key
+### 3. Obtain API Key
 
 AlphaGenome requires an API key to access the model. Obtain your API key at:
 
 https://deepmind.google.com/science/alphagenome/
 
-### 3. Install MCP Server
+### 4. Install MCP Server
 
 Install the AlphaGenome MCP server using fastmcp:
 
@@ -44,20 +51,19 @@ Install the AlphaGenome MCP server using fastmcp:
 fastmcp install gemini-cli ./mcp/alphagenome_mcp.py --with-requirements ./mcp/requirements.txt
 ```
 
-### 4. Start the Agent
+### 5. Start the Agent
 
-Navigate to this folder and start Gemini CLI:
+Start Gemini CLI in the repository folder:
 
 ```bash
-cd AlphaGenome_demo
 gemini
 ```
 
 You will now have access to the AlphaGenome agent with all available tools.
 
-## Available MCP Tools
+## Available Agent Tools
 
-The MCP server provides the following tools:
+The agent provides the following capabilities through natural language:
 
 ### Batch Variant Scoring
 - `alphagenome_score_batch_variants`: Score multiple genetic variants across genomic modalities
