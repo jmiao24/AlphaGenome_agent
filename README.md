@@ -61,6 +61,13 @@ gemini
 
 You will now have access to the AlphaGenome agent with all available tools.
 
+## Example Query
+
+```
+Analyze heart gene expression data with AlphaGenome MCP to identify the causal gene
+for the variant chr11:116837649:T>G, associated with Hypoalphalipoproteinemia.
+```
+
 ## Available Agent Tools
 
 The agent provides the following capabilities through natural language:
