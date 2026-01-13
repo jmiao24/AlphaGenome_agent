@@ -43,7 +43,13 @@ AlphaGenome requires an API key to access the model. Obtain your API key at:
 
 https://deepmind.google.com/science/alphagenome/
 
-### 4. Install MCP Server
+### 4. Install FastMCP
+
+```bash
+pip install fastmcp
+```
+
+### 5. Install MCP Server
 
 Install the AlphaGenome MCP server using fastmcp:
 
@@ -51,7 +57,7 @@ Install the AlphaGenome MCP server using fastmcp:
 fastmcp install gemini-cli ./mcp/alphagenome_mcp.py --with-requirements ./mcp/requirements.txt
 ```
 
-### 5. Start the Agent
+### 6. Start the Agent
 
 Start Gemini CLI in the repository folder:
 
